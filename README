@@ -1,0 +1,14 @@
+# ZFS on Linux Tools
+
+A set of command line tools to help manage ZFS on Linux without having to know zpool commands.
+
+-zpool_create.sh
+This tool helps create a zpool (with ability to add L2ARC and mirrored ZIL drives).
+
+Usage:
+$ sh zpool_create.sh
+
+TODO:
+
+Unify all tools into a single command that can call each other via arguments (eg: zfsol create rather than ./zpool_create.sh)
+Add Management Tools (Modify, Replace, Add, Destroy)
